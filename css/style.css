@@ -38,19 +38,20 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 header{
-    max-width: 1050px;
+    width: fit-content;
+    margin: 10px 250px 10px 0px;
     /* border: 1px solid black; */
     
 }
 
 nav {
     padding: 5px 20px 5px 20px;
-    max-width: 1050px;
+    max-width: fit-content;
     /* border: 1px solid black; */
 }
 
 body {
-    margin: 10px 250px 10px 250px;
+    margin: 10px 50px 10px 250px;
     padding: 10px 50px 10px 50x;
     border-bottom: inherit;
     /* border: 1px solid black; */
@@ -62,14 +63,16 @@ body {
 
 footer {
     padding: 5px 0px 5px 0px;
-    max-width: 1050px;
+    width: fit-content;
     border-top: 4px solid rgba(0, 0, 0, 0.844);
     max-height: fit-content;
+    margin: 10px 50px 10px 0px;
 }
 
 div {
     padding: 10px 20px;
-    max-width: 1000px;
+    width: fit-content;
+    margin: 10px 50px 10px 0px;
     
 }
 
@@ -142,13 +145,14 @@ h3 {
 }
 ul {
     padding: 10px 20px;
-    max-width: 1000px;
+    width: fit-content;
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 1px 1px 0.5px grey;
+    text-shadow: 1px 1px 0.5px rgb(15, 15, 15);
     background: white;
     opacity: 0.5;
     border-radius: 10px;
+    margin: 10px 250px 10px 0px;
 }
 ul li {
     padding-left: 2rem;
@@ -157,10 +161,11 @@ ul li {
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
     margin-bottom: 10px;
-    text-shadow: 1px 1px 0.5px grey;
+    text-shadow: 1px 1px 0.5px rgb(15, 14, 14);
     background: white;
     opacity: 0.5;
     border-radius: 10px;
+    
 }
 
 .own {
@@ -195,6 +200,7 @@ ul li {
     background: white;
     opacity: 0.5;
     border-radius: 10px;
+    margin: 10px 250px 10px 0px;
 }
 
 .dillers {
@@ -207,7 +213,7 @@ ul li {
 .ftstyle {
     display: block;
     padding: 20px 5px;
-    max-width: 1000px;
+    width: 1050px;
     text-align: justify;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: darkgray;
@@ -215,9 +221,11 @@ ul li {
     background: white;
     opacity: 0.5;
     border-radius: 10px;
+    margin: 10px 250px 10px 0px;
 }
 
 input {
+    width: 1050px;
     font-size: 15px;
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -225,4 +233,5 @@ input {
     background: white;
     opacity: 0.5;
     border-radius: 5px;
+    margin: 10px 250px 10px 0px;
 }
