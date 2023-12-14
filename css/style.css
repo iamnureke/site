@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+*,*:before,:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+header{
+    max-width: 1050px;
+    /* border: 1px solid black; */
+    
+}
+
+nav {
+    padding: 5px 20px 5px 20px;
+    max-width: 1050px;
+    /* border: 1px solid black; */
+}
+
+body {
+    margin: 10px 50px 10px 250px;
+    padding: 10px 50px 10px 50x;
+    border-bottom: inherit;
+    /* border: 1px solid black; */
+    max-width: 1050px;
+    height: fit-content;
+    position: relative;
+    background: url(https://fonoteka.top/uploads/posts/2021-03/1616690120_27-p-avtozapchasti-fon-28.jpg) 0 0/100% 100%;
+}
+
+footer {
+    padding: 5px 0px 5px 0px;
+    max-width: 1050px;
+    border-top: 4px solid rgba(0, 0, 0, 0.844);
+    max-height: fit-content;
+}
+
+div {
+    padding: 10px 20px;
+    max-width: 1000px;
+    
+}
+
+div.history {
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 0.5px grey;
+    background: white;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 10px 20px;
+    text-shadow: 1px 1px 0.7px grey;
+    color:antiquewhite
+}
+
+.roboto {
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 0.5px grey;
+    background: white;
+    opacity: 0.5;
+    border-radius: 10px;
+    
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-style: oblique;
+    border: 1px solid gainsboro;
+    width: fit-content;
+    border-radius: 10px;
+    text-shadow: 1px 1px 0.5px grey;
+    color:antiquewhite
+    
+    
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding: 5px 20px;
+    font-style: italic;
+    border: 1px solid gainsboro;
+    width: fit-content;
+    border-radius: 10px;
+    text-shadow: 1px 1px 0.5px grey;
+    color:antiquewhite
+}
+
+.first_car{
+    padding: 5px;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow:  0px 0px 10px black;
+}
+
+.sp_firstcar {
+    display: block;
+    margin: 5px;
+    text-shadow: 1px 1px 1px black;
+  
+
+}
+ul {
+    padding: 10px 20px;
+    max-width: 1000px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 0.5px grey;
+    background: white;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+ul li {
+    padding-left: 2rem;
+    background-image: url(data:image/png;base64,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);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 0.5px grey;
+    background: white;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.own {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 5px 20px;
+    font-style: none;
+    text-transform: uppercase;
+    background: white;
+    opacity: 0.5;
+    border-radius: 10px;
+    
+}
+.navstyle {
+    display: inline-block;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    background: white;
+    opacity: 0.5;
+    border-radius: 5px;
+    
+}
+
+.otsilka {
+    display: block;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 10px;
+    font-style: italic;
+    background: white;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.dillers {
+    padding: 5px;
+    height: 150px;
+    width: 150px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.ftstyle {
+    display: block;
+    padding: 20px 5px;
+    max-width: 1000px;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgray;
+    text-shadow: 1px 1px 1px silver;
+    background: white;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+input {
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    background: white;
+    opacity: 0.5;
+    border-radius: 5px;
+}
